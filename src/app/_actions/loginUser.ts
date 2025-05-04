@@ -8,5 +8,5 @@ export default function loginUser(prev:unknown, forms:FormData) {
         redirect("/user")
     }
     
-    return {}
+    return {message:"not correct user"}
 }
