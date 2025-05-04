@@ -1,7 +1,10 @@
 import React from 'react'
+import LoginComponent from '../_components/LoginComponent'
 
 export default function page() {
   return (
-    <div>LOGIN page</div>
+    <div className='ml-52 mt-40'>
+        <LoginComponent />
+    </div>
   )
 }
